@@ -1,0 +1,32 @@
+{
+  "name": "eventouniguatemala-back",
+  "version": "1.0.0",
+  "description": "Back end para proyecto de eventos de poesia en universidad de Guatemala",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshepLov/EventoPoesiaUniGuatemala.git"
+  },
+  "author": "Jose Morales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshepLov/EventoPoesiaUniGuatemala/issues"
+  },
+  "homepage": "https://github.com/joshepLov/EventoPoesiaUniGuatemala#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.4.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
